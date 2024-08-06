@@ -7,7 +7,7 @@
 #' @param data data argument in sem
 #' @param ... other argument in sem
 #'
-#' @return results as in sem()
+#' @return summaries as in sem()
 #' @export
 #'
 #' @examples

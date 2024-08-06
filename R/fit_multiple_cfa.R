@@ -5,7 +5,7 @@
 #' @param data data argument in cfa
 #' @param ... other argument in cfa
 #'
-#' @return results as in cfa()
+#' @return summaries as in cfa()
 #' @export
 #'
 #' @examples
