@@ -7,8 +7,19 @@
 fit_multiple_cfa(models, data, ...)
 }
 \arguments{
-\item{model}{}
+\item{models}{A vector with multiple models}
+
+\item{data}{data argument in cfa}
+
+\item{...}{other argument in cfa}
+}
+\value{
+results as in cfa()
 }
 \description{
 Title
+}
+\examples{
+models <- c(model1, model2, model3)
+summaries <- fit_multiple_cfa(models, HolzingerSwineford1939)
 }
