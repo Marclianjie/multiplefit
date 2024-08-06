@@ -4,6 +4,14 @@ fit_multiple_cfa <- function(models, data, ...) {
     stop("Models argument should be a character vector of model specifications.")
   }
 
+#' Title
+#'
+#' @param model
+#'
+#' @return
+#' @export
+#'
+#' @examples
   fit_model <- function(model) {
     fit <- lavaan::cfa(model, data = data, ...)
     return(fit)
