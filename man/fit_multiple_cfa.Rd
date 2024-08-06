@@ -14,12 +14,16 @@ fit_multiple_cfa(models, data, ...)
 \item{...}{other argument in cfa}
 }
 \value{
-results as in cfa()
+summaries as in cfa()
 }
 \description{
 Title
 }
 \examples{
+model1 <- 'A =~ x1 + x2 + x3'
+model2 <- 'B =~ x4 + x5 + x6'
+model3 <- 'C =~ x7 + x8 + x9'
 models <- c(model1, model2, model3)
+data("HolzingerSwineford1939", package = "lavaan")
 summaries <- fit_multiple_cfa(models, HolzingerSwineford1939)
 }
