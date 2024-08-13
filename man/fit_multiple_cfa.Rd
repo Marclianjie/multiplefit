@@ -2,7 +2,7 @@
 % Please edit documentation in R/fit_multiple_cfa.R
 \name{fit_multiple_cfa}
 \alias{fit_multiple_cfa}
-\title{Title}
+\title{Fit a list of CFA models}
 \usage{
 fit_multiple_cfa(models, data, ...)
 }
@@ -17,7 +17,7 @@ fit_multiple_cfa(models, data, ...)
 summaries as in cfa()
 }
 \description{
-Title
+Fit a list of CFA models
 }
 \examples{
 model1 <- 'A =~ x1 + x2 + x3'

@@ -1,5 +1,5 @@
 
-#' Title
+#' Fit a list of CFA models
 #'
 #' @param models A vector with multiple models
 #' @param data data argument in cfa
@@ -19,8 +19,6 @@ fit_multiple_cfa <- function(models, data, ...) {
   if (!is.character(models)) {
     stop("Models argument should be a character vector of model specifications.")
   }
-
-
 
 
   fit_model <- function(model) {
